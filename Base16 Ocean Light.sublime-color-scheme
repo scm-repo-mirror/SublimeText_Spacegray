@@ -23,7 +23,7 @@
 		"base0D": "rgb(89, 134, 182)",
 		"base0E": "rgb(139, 91, 130)",
 		"base0F": "rgb(144, 96, 79)",
-		
+
 		// ST ..ish color palette
 		"--blueish": "var(base0D)",
 		"--cyanish": "var(base0C)",
@@ -33,7 +33,7 @@
 		"--purplish": "var(base0E)",
 		"--redish": "var(base08)",
 		"--yellowish": "var(base0A)",
-	},    
+	},
 	"globals":
 	{
 		"accent": "var(base08)",
@@ -54,12 +54,12 @@
 
 		// caret
 		"caret": "var(base02)",
-		
+
 		// indent guides
 		"active_guide": "var(base0D)",
 		"stack_guide": "var(base03)",
 		"guide": "var(base05)",
-		
+
 		// gutter
 		"gutter_foreground": "var(base05)",
 		"gutter_foreground_highlight": "var(base02)",
@@ -339,7 +339,7 @@
 			"name": "Underline",
 			"scope": "markup.underline",
 			"font_style": "underline"
-		},		
+		},
 		{
 			"name": "Strikethrough",
 			"scope": "markup.strikethrough, punctuation.definition.strikethrough",

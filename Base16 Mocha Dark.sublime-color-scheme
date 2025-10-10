@@ -55,12 +55,12 @@
 		"active_guide": "var(base08)",
 		"stack_guide": "var(base03)",
 		"guide": "var(base02)",
-		
+
 		// gutter
 		"gutter_foreground": "var(base03)",
 		"gutter_foreground_highlight": "var(base05)",
 		"line_diff_width": "2",
-		
+
 		// active line
 		"line_highlight": "color(var(base03) alpha(10%)",
 

@@ -19,7 +19,7 @@
 		"base0D": "rgb(102, 153, 204)",
 		"base0E": "rgb(204, 153, 204)",
 		"base0F": "rgb(210, 123, 83)",
-		
+
 		// ST ..ish color palette
 		"--blueish": "var(base0D)",
 		"--cyanish": "var(base0C)",
@@ -55,15 +55,15 @@
 		"active_guide": "var(base08)",
 		"stack_guide": "var(base03)",
 		"guide": "var(base02)",
-		
+
 		// gutter
 		"gutter_foreground": "var(base03)",
 		"gutter_foreground_highlight": "var(base05)",
 		"line_diff_width": "2",
-		
+
 		// active line
 		"line_highlight": "color(var(base03) alpha(10%)",
-		
+
 		// selections
 		"selection": "var(base02)",
 		"selection_border": "var(base01)",
