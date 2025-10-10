@@ -418,6 +418,34 @@
 			"name": "Actual Separator",
 			"scope": "meta.separator.syntax-tests",
 			"background": "var(base07)"
-		}
+		},
+
+		// Find Results
+
+		{
+			"name": "Find Results Header/Footer",
+			"scope": "meta.header.find-in-files, meta.footer.find-in-files",
+			"foreground": "var(base0E)"
+		},
+		{
+			"name": "Find Results Gutter: line number context",
+			"scope": "constant.numeric.line-number.find-in-files",
+			"foreground": "var(base05)"
+		},
+		{
+			"name": "Find Results Gutter: line number match",
+			"scope": "constant.numeric.line-number.match.find-in-files",
+			"foreground": "var(base02)"
+		},
+		{
+			"name": "Find Results Gutter: line number separator",
+			"scope": "punctuation.separator.line-number.find-in-files",
+			"foreground": "var(base07)"
+		},
+		{
+			"name": "Find Results Gutter: line number continuation",
+			"scope": "punctuation.separator.continuation.find-in-files",
+			"foreground": "var(base05)"
+		},
 	]
 }

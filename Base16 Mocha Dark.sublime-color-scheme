@@ -61,9 +61,9 @@
 		"gutter_foreground_highlight": "var(base05)",
 		"line_diff_width": "2",
 		
-		// active line	
+		// active line
 		"line_highlight": "color(var(base03) alpha(10%)",
-		
+
 		// selections
 		"selection": "var(base02)",
 		"selection_border": "var(base01)",
@@ -417,6 +417,34 @@
 			"name": "Actual Separator",
 			"scope": "meta.separator.syntax-tests",
 			"background": "var(base00)"
-		}
+		},
+
+		// Find Results
+
+		{
+			"name": "Find Results Header/Footer",
+			"scope": "meta.header.find-in-files, meta.footer.find-in-files",
+			"foreground": "var(base0E)"
+		},
+		{
+			"name": "Find Results Gutter: line number context",
+			"scope": "constant.numeric.line-number.find-in-files",
+			"foreground": "var(base03)"
+		},
+		{
+			"name": "Find Results Gutter: line number match",
+			"scope": "constant.numeric.line-number.match.find-in-files",
+			"foreground": "var(base05)"
+		},
+		{
+			"name": "Find Results Gutter: line number separator",
+			"scope": "punctuation.separator.line-number.find-in-files",
+			"foreground": "var(base00)"
+		},
+		{
+			"name": "Find Results Gutter: line number continuation",
+			"scope": "punctuation.separator.continuation.find-in-files",
+			"foreground": "var(base03)"
+		},
 	]
 }
