@@ -387,6 +387,56 @@
 			"foreground": "var(base02)"
 		},
 
+		// Diff Syntax
+
+		{
+			"name": "Diff file header",
+			"scope": "source.diff meta.header",
+			"foreground": "var(base0A)",
+		},
+		{
+			"name": "Diff changed trailing whitespace",
+			"scope": "source.diff markup.changed meta.whitespace",
+			"background": "color(var(--orangish) alpha(0.15))",
+		},
+		{
+			"name": "Diff deleted trailing whitespace",
+			"scope": "source.diff markup.deleted meta.whitespace",
+			"background": "color(var(--redish) alpha(0.15))",
+		},
+		{
+			"name": "Diff inserted trailing whitespace",
+			"scope": "source.diff markup.inserted meta.whitespace",
+			"background": "color(var(--greenish) alpha(0.15))",
+		},
+
+		// Inline Diff
+
+		{
+			"name": "Inline diff deleted line",
+			"scope": "diff.deleted",
+			"background": "color(var(--redish) alpha(0.10))",
+			"foreground_adjust": "l(+ 5%)"
+		},
+		{
+			"name": "Inline diff deleted region",
+			"scope": "diff.deleted.char",
+			"background": "color(var(--redish) alpha(0.15))",
+			"foreground_adjust": "l(+ 10%)"
+		},
+		{
+			"name": "Inline diff inserted line",
+			"scope": "diff.inserted",
+			"background": "color(var(--greenish) alpha(0.10))",
+			"foreground_adjust": "l(+ 5%)"
+		},
+		{
+			"name": "Inline diff inserted region",
+			"scope": "diff.inserted.char",
+			"background": "color(var(--greenish) alpha(0.15))",
+			"foreground_adjust": "l(+ 10%)"
+		},
+
 		// Build System messages & Linter Marker
 
 		{
