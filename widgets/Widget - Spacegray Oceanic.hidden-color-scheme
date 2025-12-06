@@ -85,6 +85,11 @@
 			"foreground": "var(base04)"
 		},
 		{
+			"name": "Group and Set Punctuation",
+			"scope": "punctuation.definition.group, punctuation.definition.set",
+			"foreground": "var(base04)"
+		},
+		{
 			"name": "Embedded Punctuation",
 			"scope": "meta.embedded punctuation.section.embedded",
 			"foreground": "var(base0C)",
@@ -190,6 +195,19 @@
 			"scope": "invalid.illegal",
 			"foreground": "var(base00)",
 			"background": "var(base08)"
+		},
+
+		// RegExp
+
+		{
+			"name": "RegExp Modifier",
+			"scope": "source.regexp punctuation.definition.modifier",
+			"foreground": "var(base04)"
+		},
+		{
+			"name": "RegExp Punctuation",
+			"scope": "source.regexp keyword.other punctuation.definition",
+			"foreground": "var(base0E)"
 		},
 	]
 }
