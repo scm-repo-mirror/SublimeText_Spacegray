@@ -137,12 +137,12 @@
 		},
 		{
 			"name": "Variables",
-			"scope": "entity.name.variable, entity.other.custom-property, meta.generic-name, support.variable, variable, punctuation.definition.parameter, punctuation.definition.variable",
+			"scope": "entity.name.variable, entity.other.custom-property, meta.generic-name, support.variable, variable, variable punctuation.definition",
 			"foreground": "var(base06)"
 		},
 		{
 			"name": "Built-in Variables",
-			"scope": "variable.language, variable.language punctuation.definition.variable",
+			"scope": "variable.language, variable.language punctuation.definition",
 			"foreground": "var(base08)",
 			"font_style": "italic"
 		},
