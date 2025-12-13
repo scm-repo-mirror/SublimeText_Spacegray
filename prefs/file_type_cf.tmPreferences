@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
         <key>scope</key>
-        <string>source.cfscript.cfc</string>
+        <string>embedding.cfml,source.cfml.script,text.html.cfm,text.html.cfml</string>
         <key>settings</key>
         <dict>
             <key>icon</key>
-            <string>file_type_cfc</string>
+            <string>file_type_cf</string>
         </dict>
     </dict>
 </plist>
